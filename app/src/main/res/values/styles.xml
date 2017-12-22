@@ -1,0 +1,63 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="popupMenuStyle">@style/debugPopup</item>-->
+        <!--<item name="actionBarStyle">@style/debugActionBar</item>-->
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppTheme.PopupMenu</item>
+    </style>
+    
+    <style name="ThemeOverlay.AppTheme.PopupMenu" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- popup menu background - NEVER "android:background" !!! in themes -->
+        <item name="android:colorBackground">@color/actionbarBackground</item>
+        <!-- popup menu item text color -->
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+
+    <style name="TextButes">
+        <item name="android:textSize">35sp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <!--android:layout_marginBottom="10dp"-->
+    </style>
+
+    <!--Plain btn styling attributes-->
+    <style name="btn_plain">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:textSize">@dimen/batt_btn_textsize</item>
+    </style>
+
+    <!--I should get a better name for these next 2 styles lel-->
+    <style name="layout_style1">
+        <!--<item name="app:layout_constraintLeft_toLeftOf">parent</item>-->
+        <item name="android:layout_marginLeft">@dimen/left_indent</item>
+    </style>
+
+    <style name="layout_style2">
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="layout">
+
+    </style>
+    <!--I should probably get better at styling lel-->
+    <style name="layout.center">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="layout.center.all">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <!--<item name="android:paddingTop">15dp</item>-->
+    <!--<item name="android:layout_gravity">center</item>-->
+    <!--<item name="android:paddingBottom">15dp</item> -->
+
+
+</resources>

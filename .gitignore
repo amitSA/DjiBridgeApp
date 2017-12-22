@@ -1,0 +1,12 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+#I don't want to ignore .docx files anymore, b/c for one, they shouldn't be in the project
+#/*.docx

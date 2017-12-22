@@ -1,0 +1,3 @@
+include ':app', ':dJISDKLIB', ':aes-crypto', /*':volley',*/ ':android-client'
+
+//project(':volley').buildFileName = 'rules.gradle'

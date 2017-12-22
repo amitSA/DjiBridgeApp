@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">DJI Bridge App</string>
+
+    <string name="not_connected">Not Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="permissions_denied">(Error)Requested Permissions Denied</string>
+    <string name="sign_in">Please Sign in!</string>
+    <string name="signing_in">Signing In...</string>
+
+    <string name="userinfo_incomplete">User status on server incomplete!</string>
+    <string name="userinfo_btn_text">Refresh</string>
+
+    <!--Intent Categories-->
+    <!--<string name="APPLICATION_CONNECTED_CATEGORY">bridge.intent.category.DJI_CONNECTED</string>
+    <string name="AUTHENTIFICATED_CATEGORY">bridge.intent.category.NDC_AUTHENTIFICATED</string>-->
+
+    <string name="PASSWORD_KEY">_ndc_password_key_</string>
+    <string name="USERNAME_KEY">_ndc_username_key_</string>
+
+    <!--Universal Values for Notifications -->
+    <integer name="SIGNIN_NOTIFICATION_ID">69</integer>
+    <string name="signin_notification_title">Sign in to the app</string>
+    <string name="signin_notification_content">broi, sign in using your NDC credentials to start using this app</string>
+
+    <!--Primitives for views in Sign Activity-->
+    <string name="invalid_email">Error: Invalid Email format</string>
+    <string name="unsuccessful_auth">Error: Sign-In rejected</string>
+    <string name="successful_auth">NDC Account Verified!</string>
+
+    <!--The title of the dialog that the signed-in user will see to choose a vehicle from a list of registered vehicles-->
+    <string name="choose_vehicle_dialog_title">Choose Vehicle</string>
+
+    <!--Other sign-in related strings-->
+
+    <string name="load_users_info_err">Error in loading the users initial network info.</string>
+    <string name="vehicle_dialog_closed_err">Dialog closed without selecting vehicle!</string>
+
+    <string name="users_has_no_vehicle_err">Error: user has no vehicles in the PaaS server</string>
+
+    <string name="load_vehicle_session_err">Error in loading the selected vehicle\'s PaaS session info.</string>
+
+    <string name="load_users_vehicle_err">Error in loading the selected vehicle\'s info.</string>
+
+    <string name="users_profile_bueno">Good: user\'s profile downloaded from PaaS server.</string>
+    <!--<string name="users_profile_incomplete_err">Error: User Profile is not fully configured in the PaaS server!</string>-->
+
+
+
+    <!--String for textview of LoggerFragment.-->
+    <string name="test_charset">
+    This is sparta.\nThis is sparta.\nThis is sparta.\nThis is sparta.This is sparta.
+    This is sparta.This is sparta.This is sparta.This is sparta.This is sparta.
+    This is sparta.This is sparta.This is sparta.This is sparta.This is sparta.
+    </string>
+</resources>

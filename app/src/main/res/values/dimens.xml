@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="modeltext_size">20sp</dimen>
+    <dimen name="left_indent">10dp</dimen>
+    <dimen name="batt_btn_textsize">15sp</dimen>
+
+    <!--For sign in activity-->
+    <dimen name="left_indentS">20dp</dimen>
+
+</resources>

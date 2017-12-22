@@ -1,0 +1,10 @@
+This file is for accrediting drawables that were made by third party sources.
+
+
+* the image named arrow_blue.png was modified off an image created by arjuazka from Noun Project
+
+* the image named checkmark_green.png was modified off an image created by Huu Nguyen from Noun Project
+
+
+
+

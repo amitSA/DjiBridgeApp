@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--All app universal integer resources-->
+
+
+    <!--All app universal boolean resources-->
+    <bool name="activity_force_landscape">false</bool>
+
+
+</resources>

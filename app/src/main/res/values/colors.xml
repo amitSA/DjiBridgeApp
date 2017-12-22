@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color> <!-- QUESTION: If I change this color's value to like 'pink', then MainActivity's Toolbar changes too -->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="actionbarBackground">#5d6066</color>
+
+    <!--<color name="white">#FFFFFF</color>-->
+
+    <color name="biege_textview_color">#fcf8e5</color>
+
+
+    <color name="successGreen">#9bf442</color>
+    <color name="unsuccessRed">#d36767</color>
+</resources>

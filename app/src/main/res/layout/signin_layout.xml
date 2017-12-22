@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/loginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PaaS Mobile Link Login"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/modeltext_size"
+        />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="@dimen/left_indentS"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/loginTextView"
+        android:text="status hIJOO"
+        android:visibility="invisible"
+        android:textSize="18sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/userLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/left_indentS"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/statusTextView"
+
+        android:orientation="horizontal">
+        <!--android:layout_centerHorizontal="true"-->
+        <TextView
+            android:id="@+id/userTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username: "
+            android:textSize="@dimen/modeltext_size" />
+
+        <EditText
+            android:id="@+id/user_text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:inputType="textEmailAddress">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/userLinearLayout"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="@dimen/left_indentS"
+
+        android:orientation="horizontal">
+        <!--android:layout_centerHorizontal="true"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password: "
+            android:id="@+id/passTextView"
+            android:textSize="@dimen/modeltext_size"
+            />
+
+        <EditText
+            android:id="@+id/pass_text_input"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:background="@android:color/transparent" >
+
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/passLinearLayout"
+        android:text="Enter"
+        android:textSize="20dp" />
+
+</RelativeLayout>
